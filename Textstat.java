@@ -116,11 +116,20 @@ public class Textstat
 
 		If true then increment the spacecounter by 1. 
 
+	-if(Character.isUpperCase(expr.charAt(i)))
+		It will check for the character at index i if it is upper case letter the condition become true and increment counter upper.
+
+	-if(Character.isLowerCase(expr.charAt(i)))
+		isLowerCase will return true in case of the character at i position is lowercase. 
 
 --for loop will execute till the last character available in the string.
 
+
+
 --System.out.println("\nNo of Spaces:"+spacecntr);
 --System.out.println("No of Words: "+(spacecntr+1));
+--System.out.println("No of UpperCase Chars:"+upper);
+--System.out.println("No of LowerCase Chars:"+lower);
 
 		It will simply print the counter value
 
